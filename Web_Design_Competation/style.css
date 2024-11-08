@@ -1,0 +1,263 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+main{
+    height: calc(100% - 100px);
+    width: 100%;
+    background-color: rgb(57, 57, 57);
+    padding-top: 100px;
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    background-color: black;
+    z-index: 10;
+}
+
+.Header-Contact{
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.Header-Contact h4{
+    color: white;
+    margin-right: 20px;
+    cursor: pointer ;
+}
+
+header div{
+    height: 100%;
+}
+
+.Header-Title{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+.Header-Adress{
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.Header-Adress h4{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.Header-Adress h4:hover{
+    text-decoration: underline;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("MainBg.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.Main-Page-Items{
+    width: 50%;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.Main-Page-Items div{
+    display: flex;
+    justify-content: center;
+}
+
+.Main-Page-Items h1{
+    font-size: 8rem;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.Main-Page-Items h5{
+    font-size: 20px;
+}
+
+.Register-Btn{
+    background-color: black;
+    outline: none;
+    border: none;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.678);
+}
+
+.Register-Btn:hover{
+    background-color: rgb(33, 32, 32);
+}
+
+.Register-Btn:active{
+    opacity: 0.7;
+}
+
+.Main-Page-Details h5{
+    text-align: center;
+}
+
+.Image-Section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-image: url("image-bg.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.Image-Section div{
+    height: 80%;
+}
+
+.Image-Section img{
+    width: 90%;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.Image-Section img:hover{
+    transform: translateY(-5%);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+a:hover{
+    color: rgb(183, 182, 182);
+}
+
+.Details-Section{
+    height: 60%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* background-image: url("Details-Bg.jpeg"); */
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.Details-Section div:first-child{
+    display: flex;
+    justify-content: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+.Learn-More{
+    background-color: black;
+    outline: none;
+    border: none;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.678);
+}
+
+.Learn-More:hover{
+    background-color: rgb(33, 32, 32);
+}
+
+.Learn-More:active{
+    opacity: 0.7;
+}
+
+.Details-Section h5{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Details-Section div:last-child{
+    padding-top: 50px;
+    text-align: justify;
+    font-size: 1.3rem;
+}
+
+footer{
+    background-color: white;
+    height: 80%;
+}
+
+.Lets-talk{
+    display: flex;
+    justify-content: center;
+    font-size: 9rem;
+}
+
+.Lets-talk h3{
+    margin-bottom: 10px;
+}
+
+.Lets-talk h2{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.footer-list{
+    padding-left: 30px;
+}
+
+.last-contact{
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.last-contact h5{
+    margin: 0;
+    margin-top: 5px;
+}
+
+.last-contact div{
+    padding-left: 50px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: white;
+}
+
+::-webkit-scrollbar{
+    background-color: black;
+}
